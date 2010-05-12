@@ -1,0 +1,15 @@
+What is it?
+
+A simple jQuery plugin to fix an element to the viewport, but only after the user has scrolled past it's top. So in effect, it "tears" away the element from it's position and keeps it in the viewport, and after the user scrolls back up, it's placed in it's original place.
+
+How does it work?
+
+It looks for events (they are configurable, defaults are "scroll resize") and calculates where the element is relative to the viewport. When the top of the element is outside of the viewport, it will add a CSS class (default is "fixed").
+
+Usage
+
+$(selector).fixedscroll();
+
+Requirements
+
+jQuery (tested on 1.3.2, 1.4.2)

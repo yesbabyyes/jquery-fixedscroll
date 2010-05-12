@@ -1,0 +1,9 @@
+/* 
+ * Default CSS attributes for an element fixed to viewport
+ * Include this CSS file or specify your own CSS, optionally
+ * with your own class name
+ * */
+.fixed {
+    position: fixed;
+    top: 0;
+}
